@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="border-t border-white/5 pt-6">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="text-white/70 text-sm mb-4 md:mb-0">
-                <p>&copy; 2024 ZYRA. All rights reserved. | Empowering Health Through AI Innovation</p>
+                <p>&copy; 2025 ZYRA. All rights reserved. | Empowering Health Through AI Innovation</p>
               </div>
             </div>
           </div>
