@@ -2,6 +2,8 @@ import "~/styles/globals.css";
 
 import { type Metadata } from "next";
 import { Geist } from "next/font/google";
+import Navbar from "~/components/Navbar";
+import Footer from "~/components/Footer";
 
 export const metadata: Metadata = {
   title: "ZYRA",
@@ -17,7 +19,11 @@ const geist = Geist({
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={geist.className}>
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
