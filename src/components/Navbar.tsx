@@ -41,7 +41,7 @@ export default function Navbar() {
             <Link href="/team" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Meet The Team
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/about" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               About
             </Link>
           </div>
@@ -84,7 +84,7 @@ export default function Navbar() {
             <Link href="/team" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Meet The Team
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/about" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               About
             </Link>
           </div>

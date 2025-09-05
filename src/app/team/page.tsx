@@ -5,8 +5,8 @@ import TeamMemberCard from '~/components/TeamMemberCard';
 
 const teamMembers = [
   {
-    name: 'Team Member 1',
-    roll: 'S123456',
+    name: 'Nirmal Haldar',
+    roll: '2330161',
     stream: 'Computer Science',
     course: 'B.Tech',
     image: '/team/member1.jpg', // You'll need to add these images to your public folder
