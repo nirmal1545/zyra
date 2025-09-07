@@ -29,13 +29,13 @@ export default function Navbar() {
             <Link href="/" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Home
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/auth/signup" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Sign Up
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/auth/login" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Log In
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/chat" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Chat
             </Link>
             <Link href="/team" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
@@ -72,13 +72,13 @@ export default function Navbar() {
             <Link href="/" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Home
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/auth/signup" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Sign Up
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/auth/login" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Log In
             </Link>
-            <Link href="#" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
+            <Link href="/chat" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">
               Chat
             </Link>
             <Link href="/team" className="text-white/90 hover:text-white transition-colors duration-300 text-sm font-medium">

@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { FaBrain, FaComments, FaChartBar, FaLightbulb, FaEye, FaUsers, FaCode } from "react-icons/fa";
-import TeamMemberCard from "../../components/TeamMemberCard"; // Adjust path as necessary
+import { FaBrain, FaComments, FaChartBar, FaLightbulb, FaEye, FaUsers, FaCode, FaArrowRight, FaHospital, FaBriefcaseMedical, FaGlobe } from "react-icons/fa";
+import Image from "next/image";
 
 export default function AboutPage() {
   const [mounted, setMounted] = useState(false);
@@ -12,161 +12,199 @@ export default function AboutPage() {
     setMounted(true);
   }, []);
 
-  const teamMembers = [
-    {
-      name: "Nirmal Kumar",
-      roll: "21XXXXXX", // Placeholder
-      stream: "Computer Science", // Placeholder
-      course: "B.Tech", // Placeholder
-      image: "/team/nirmal.jpg", // Placeholder image
-      linkedin: "https://www.linkedin.com/in/nirmal-kumar-b0b0b0b0/",
-      github: "https://github.com/nirmal1545",
-      instagram: "https://www.instagram.com/nirmal_kumar/", // Placeholder
-    },
-    // Add more team members as needed
-  ];
-
   return (
-    <main className="relative min-h-screen overflow-hidden bg-gradient-to-b from-slate-900 to-emerald-400 text-white">
-      {/* Animated Background with Seamless Transition */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-slate-800/40 via-transparent to-green-400/40 animate-pulse"></div>
-        <div className="absolute top-0 right-0 w-96 h-96 bg-slate-700/20 rounded-full blur-3xl animate-bounce"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-emerald-500/20 rounded-full blur-3xl animate-pulse"></div>
+    <main className="relative min-h-screen overflow-x-hidden bg-gradient-to-b from-slate-900 via-slate-800 to-emerald-900">
+      {/* Hero Section with Background */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/20 via-transparent to-slate-900/20"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-[url('/grid.svg')] bg-repeat opacity-10"></div>
       </div>
 
       {/* Content Container */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen py-16 px-8">
-        <div className="text-center max-w-4xl mx-auto">
-          <h1 className={`text-6xl md:text-7xl font-black tracking-wider mb-8 transition-all duration-1000 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-10'
-          }`}>
-            <span className="bg-gradient-to-r from-white via-purple-200 to-emerald-300 bg-clip-text text-transparent animate-pulse">
-              About Zyra
-            </span>
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-32 pb-20 text-white">
+        {/* Page Title */}
+        <div className="text-center mb-16">
+          <h1 className="text-5xl font-bold bg-gradient-to-r from-white via-purple-200 to-emerald-300 bg-clip-text text-transparent animate-pulse">
+            About Zyra
           </h1>
-
-          {/* Mission & Vision */}
-          <section className={`mb-12 transition-all duration-1000 delay-200 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'
-          }`}>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-4 flex items-center justify-center gap-3">
-              <FaLightbulb /> Our Mission
-            </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto mb-8">
-              To democratize access to intelligent health insights, empowering individuals to understand their bodies better and make informed decisions about their well-being through cutting-edge AI technology.
-            </p>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-4 flex items-center justify-center gap-3">
-              <FaEye /> Our Vision
-            </h2>
-            <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-              To be the leading AI companion for personal health, providing accurate, accessible, and empathetic guidance that transforms the way people interact with healthcare.
-            </p>
-          </section>
-
-          {/* Problem Statement */}
-          <section className={`mb-12 transition-all duration-1000 delay-400 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'
-          }`}>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-4">The Problem</h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              In today's fast-paced world, individuals often face challenges in quickly understanding their health symptoms and accessing reliable medical information. Misinformation, delayed diagnoses, and the lack of immediate, personalized health guidance can lead to anxiety and poorer health outcomes. Traditional healthcare systems, while essential, can be slow and overwhelming, leaving many feeling disempowered in managing their own health.
-            </p>
-          </section>
-
-          {/* Proposed Solution */}
-          <section className={`mb-12 transition-all duration-1000 delay-600 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'
-          }`}>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-4">Our Solution: Zyra</h2>
-            <p className="text-lg text-gray-300 max-w-3xl mx-auto">
-              Zyra offers an **AI-powered platform** that acts as your personal health assistant. By leveraging advanced machine learning models, Zyra can analyze reported symptoms to provide potential disease predictions, offering users a preliminary understanding of their condition. Furthermore, our intelligent physiology chatbot provides instant, accurate answers to a wide range of health and physiological questions, bridging the information gap and empowering users with knowledge. Zyra aims to be a proactive tool for health management, offering insights and support whenever and wherever it's needed.
-            </p>
-          </section>
-
-          {/* Key Features */}
-          <section className={`mb-12 transition-all duration-1000 delay-800 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'
-          }`}>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-6">Key Features</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 flex flex-col items-center text-center">
-                <FaBrain className="text-5xl text-emerald-300 mb-4" />
-                <h3 className="text-2xl font-semibold mb-2">Smart Diagnosis</h3>
-                <p className="text-gray-300">AI-driven symptom analysis for potential disease prediction.</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 flex flex-col items-center text-center">
-                <FaComments className="text-5xl text-emerald-300 mb-4" />
-                <h3 className="text-2xl font-semibold mb-2">AI Chatbot</h3>
-                <p className="text-gray-300">Interactive chatbot for physiology and health queries.</p>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-white/20 flex flex-col items-center text-center">
-                <FaChartBar className="text-5xl text-emerald-300 mb-4" />
-                <h3 className="text-2xl font-semibold mb-2">Health Analytics</h3>
-                <p className="text-gray-300">Insights and statistics for better health management.</p>
-              </div>
-            </div>
-          </section>
-
-          {/* Tech Stack */}
-          <section className={`mb-12 transition-all duration-1000 delay-1000 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'
-          }`}>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-6 flex items-center justify-center gap-3">
-              <FaCode /> Our Tech Stack
-            </h2>
-            <div className="overflow-x-auto">
-              <table className="min-w-full bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 text-left text-gray-200">
-                <thead>
-                  <tr className="bg-white/20">
-                    <th className="py-3 px-4 text-lg font-semibold">Technology</th>
-                    <th className="py-3 px-4 text-lg font-semibold">Description</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="py-2 px-4 font-medium">Next.js</td>
-                    <td className="py-2 px-4">React framework for full-stack applications.</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4 font-medium">NextAuth.js</td>
-                    <td className="py-2 px-4">Authentication and authorization.</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4 font-medium">Prisma</td>
-                    <td className="py-2 px-4">Open-source ORM for database management.</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4 font-medium">Tailwind CSS</td>
-                    <td className="py-2 px-4">Utility-first CSS framework for rapid styling.</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4 font-medium">TypeScript</td>
-                    <td className="py-2 px-4">Type-safe programming language.</td>
-                  </tr>
-                  <tr>
-                    <td className="py-2 px-4 font-medium">Zod</td>
-                    <td className="py-2 px-4">Schema validation library.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </section>
-
-          {/* Team Information */}
-          <section className={`transition-all duration-1000 delay-1200 ${
-            mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'
-          }`}>
-            <h2 className="text-4xl font-bold text-emerald-200 mb-6 flex items-center justify-center gap-3">
-              <FaUsers /> Our Team
-            </h2>
-            <div className="flex flex-wrap justify-center gap-8">
-              {teamMembers.map((member, index) => (
-                <TeamMemberCard key={index} {...member} />
-              ))}
-            </div>
-          </section>
         </div>
+        
+        {/* The Problem Section */}
+        <section className={`mb-16 transition-all duration-1000 ${mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'}`}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-emerald-400 flex items-center gap-3 justify-center">
+              <FaHospital className="text-3xl" />
+              The Problem
+            </h2>
+            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+              <p className="text-lg text-white/90 mb-6 leading-relaxed">
+                Healthcare and mental well-being remain two of the most critical challenges in India, especially in rural and semi-urban communities and higher education institutions.
+              </p>
+              <div className="space-y-6">
+                <div className="flex items-start gap-3 text-white/80">
+                  <div className="mt-1.5"><FaBriefcaseMedical className="text-emerald-400 text-xl" /></div>
+                  <p><strong className="text-emerald-400">Public Health Gaps:</strong> Limited access to reliable health information, preventive care awareness, vaccination schedules, and real-time alerts on disease outbreaks.</p>
+                </div>
+                <div className="flex items-start gap-3 text-white/80">
+                  <div className="mt-1.5"><FaBrain className="text-emerald-400 text-xl" /></div>
+                  <p><strong className="text-emerald-400">Mental Health Challenges:</strong> Rising anxiety, depression, stress, and burnout among students, coupled with stigma and lack of accessible, confidential psychological support.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Vision Section */}
+        <section className={`mb-16 transition-all duration-1000 delay-300 ${mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'}`}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-emerald-400 flex items-center gap-3 justify-center">
+              <FaGlobe className="text-3xl" />
+              Vision
+            </h2>
+            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+              <p className="text-lg text-white/90 leading-relaxed">
+                To create a <span className="text-emerald-400 font-semibold">digitally inclusive health ecosystem</span> that empowers every individual — from rural families to college students — with accessible, stigma-free, and reliable support for both physical and mental health.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Mission Section */}
+        <section className={`mb-16 transition-all duration-1000 delay-500 ${mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'}`}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-emerald-400 flex items-center gap-3 justify-center">
+              <FaLightbulb className="text-3xl" />
+              Mission
+            </h2>
+            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+              <ul className="space-y-4">
+                <li className="flex items-start gap-3 text-white/90">
+                  <div className="mt-1.5"><FaComments className="text-emerald-400 text-xl" /></div>
+                  <p>Democratize healthcare and mental wellness information through AI-powered multilingual platforms.</p>
+                </li>
+                <li className="flex items-start gap-3 text-white/90">
+                  <div className="mt-1.5"><FaBrain className="text-emerald-400 text-xl" /></div>
+                  <p>Break the stigma around mental health in higher education institutions by offering safe, confidential, and engaging digital tools.</p>
+                </li>
+                <li className="flex items-start gap-3 text-white/90">
+                  <div className="mt-1.5"><FaChartBar className="text-emerald-400 text-xl" /></div>
+                  <p>Provide governments, colleges, and organizations with real-time data insights for better decision-making and interventions.</p>
+                </li>
+                <li className="flex items-start gap-3 text-white/90">
+                  <div className="mt-1.5"><FaGlobe className="text-emerald-400 text-xl" /></div>
+                  <p>Bridge the urban-rural gap in healthcare and mental health access through scalable, tech-driven solutions.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Tech Stack Section */}
+        <section className={`mb-16 transition-all duration-1000 delay-700 ${mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'}`}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-emerald-400 flex items-center gap-3 justify-center">
+              <FaCode className="text-3xl" />
+              Tech Stack
+            </h2>
+            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
+                  <div className="flex items-center gap-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="w-8 h-8 invert" />
+                    <h3 className="text-xl font-semibold text-emerald-400">Frontend</h3>
+                  </div>
+                  <ul className="space-y-2 text-white/80">
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-4 h-4" />
+                      React + Next.js
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-4 h-4" />
+                      TypeScript
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" className="w-4 h-4" />
+                      TailwindCSS
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
+                  <div className="flex items-center gap-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="w-8 h-8" />
+                    <h3 className="text-xl font-semibold text-emerald-400">Backend & AI</h3>
+                  </div>
+                  <ul className="space-y-2 text-white/80">
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="w-4 h-4" />
+                      Python
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" className="w-4 h-4" />
+                      Jupyter Notebook
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-4 h-4" />
+                      Node.js
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
+                  <div className="flex items-center gap-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-8 h-8" />
+                    <h3 className="text-xl font-semibold text-emerald-400">Database</h3>
+                  </div>
+                  <ul className="space-y-2 text-white/80">
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-4 h-4" />
+                      PostgreSQL
+                    </li>
+                  </ul>
+                </div>
+                
+                <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
+                  <div className="flex items-center gap-4">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Cloud" className="w-8 h-8" />
+                    <h3 className="text-xl font-semibold text-emerald-400">Deployment</h3>
+                  </div>
+                  <ul className="space-y-2 text-white/80">
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" className="w-4 h-4" />
+                      Cloud-based infrastructure
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-4 h-4" />
+                      Container Deployment
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Team Section */}
+        <section className={`mb-16 transition-all duration-1000 delay-900 ${mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-5'}`}>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold mb-8 text-emerald-400 flex items-center gap-3 justify-center">
+              <FaUsers className="text-3xl" />
+              Team
+            </h2>
+            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 text-center">
+              <p className="text-lg text-white/90 mb-8 leading-relaxed">
+                We are a passionate team of <span className="text-emerald-400 font-semibold">6 innovators</span> from diverse technical backgrounds, united by a shared mission to build a healthier and more aware India.
+              </p>
+              <Link 
+                href="/team" 
+                className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg transition-colors duration-300"
+              >
+                View Team
+                <FaArrowRight />
+              </Link>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );

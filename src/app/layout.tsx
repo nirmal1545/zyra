@@ -8,7 +8,7 @@ import Footer from "~/components/Footer";
 export const metadata: Metadata = {
   title: "ZYRA",
   description: "AI-Powered Disease Symptom Predictor & Physiology Chatbot",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/favicon.png" }],
 };
 
 const geist = Geist({
