@@ -36,8 +36,9 @@ export default function SignUpPage() {
       // For now, we'll just simulate a successful signup
       console.log('Form submitted:', formData);
       router.push('/auth/login');
-    } catch (err) {
+    } catch (error) {
       setError('An error occurred during sign up');
+      console.error(error);
     }
   };
 
@@ -53,7 +54,7 @@ export default function SignUpPage() {
           <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold text-white">Create Account</h2>
-              <p className="mt-2 text-emerald-400">Join ZYRA's healthcare community</p>
+              <p className="mt-2 text-emerald-400">Join ZYRA&apos;s healthcare community</p>
             </div>
 
             <form className="space-y-6" onSubmit={handleSubmit}>

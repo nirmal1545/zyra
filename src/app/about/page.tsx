@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { FaBrain, FaComments, FaChartBar, FaLightbulb, FaEye, FaUsers, FaCode, FaArrowRight, FaHospital, FaBriefcaseMedical, FaGlobe } from "react-icons/fa";
+import { FaBrain, FaComments, FaChartBar, FaLightbulb, FaUsers, FaCode, FaArrowRight, FaHospital, FaBriefcaseMedical, FaGlobe } from "react-icons/fa";
 import Image from "next/image";
 
 export default function AboutPage() {
@@ -110,20 +110,41 @@ export default function AboutPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
                   <div className="flex items-center gap-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" className="w-8 h-8 invert" />
+                    <Image 
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" 
+                      alt="Next.js" 
+                      width={32} 
+                      height={32} 
+                      className="invert"
+                    />
                     <h3 className="text-xl font-semibold text-emerald-400">Frontend</h3>
                   </div>
                   <ul className="space-y-2 text-white/80">
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" 
+                        alt="React" 
+                        width={16} 
+                        height={16} 
+                      />
                       React + Next.js
                     </li>
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" 
+                        alt="TypeScript" 
+                        width={16} 
+                        height={16} 
+                      />
                       TypeScript
                     </li>
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="TailwindCSS" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" 
+                        alt="TailwindCSS" 
+                        width={16} 
+                        height={16} 
+                      />
                       TailwindCSS
                     </li>
                   </ul>
@@ -131,20 +152,40 @@ export default function AboutPage() {
                 
                 <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
                   <div className="flex items-center gap-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="w-8 h-8" />
+                    <Image 
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+                      alt="Python" 
+                      width={32} 
+                      height={32} 
+                    />
                     <h3 className="text-xl font-semibold text-emerald-400">Backend & AI</h3>
                   </div>
                   <ul className="space-y-2 text-white/80">
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" 
+                        alt="Python" 
+                        width={16} 
+                        height={16} 
+                      />
                       Python
                     </li>
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" alt="Jupyter" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" 
+                        alt="Jupyter" 
+                        width={16} 
+                        height={16} 
+                      />
                       Jupyter Notebook
                     </li>
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" 
+                        alt="Node.js" 
+                        width={16} 
+                        height={16} 
+                      />
                       Node.js
                     </li>
                   </ul>
@@ -152,12 +193,22 @@ export default function AboutPage() {
                 
                 <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
                   <div className="flex items-center gap-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-8 h-8" />
+                    <Image 
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" 
+                      alt="PostgreSQL" 
+                      width={32} 
+                      height={32} 
+                    />
                     <h3 className="text-xl font-semibold text-emerald-400">Database</h3>
                   </div>
                   <ul className="space-y-2 text-white/80">
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" 
+                        alt="PostgreSQL" 
+                        width={16} 
+                        height={16} 
+                      />
                       PostgreSQL
                     </li>
                   </ul>
@@ -165,16 +216,31 @@ export default function AboutPage() {
                 
                 <div className="space-y-4 p-6 bg-white/5 rounded-xl backdrop-blur-sm">
                   <div className="flex items-center gap-4">
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Cloud" className="w-8 h-8" />
+                    <Image 
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" 
+                      alt="Cloud" 
+                      width={32} 
+                      height={32} 
+                    />
                     <h3 className="text-xl font-semibold text-emerald-400">Deployment</h3>
                   </div>
                   <ul className="space-y-2 text-white/80">
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" 
+                        alt="AWS" 
+                        width={16} 
+                        height={16} 
+                      />
                       Cloud-based infrastructure
                     </li>
                     <li className="flex items-center gap-2">
-                      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" className="w-4 h-4" />
+                      <Image 
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" 
+                        alt="Docker" 
+                        width={16} 
+                        height={16} 
+                      />
                       Container Deployment
                     </li>
                   </ul>

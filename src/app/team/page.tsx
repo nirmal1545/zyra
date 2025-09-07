@@ -19,7 +19,7 @@ const teamMembers = [
     roll: 'S123457',
     stream: 'Computer Science',
     course: 'B.Tech',
-    image: '/team/member2.jpg',
+    image: '/team/mystrymember.jpg',
     linkedin: 'https://linkedin.com/in/member2',
     github: 'https://github.com/member2',
     instagram: 'https://instagram.com/member2',
@@ -29,7 +29,7 @@ const teamMembers = [
     roll: 'S123458',
     stream: 'Computer Science',
     course: 'B.Tech',
-    image: '/team/member3.jpg',
+    image: '/team/mystrymember.jpg',
     linkedin: 'https://linkedin.com/in/member3',
     github: 'https://github.com/member3',
     instagram: 'https://instagram.com/member3',
@@ -39,7 +39,7 @@ const teamMembers = [
     roll: 'S123459',
     stream: 'Computer Science',
     course: 'B.Tech',
-    image: '/team/member4.jpg',
+    image: '/team/mystrymember.jpg',
     linkedin: 'https://linkedin.com/in/member4',
     github: 'https://github.com/member4',
     instagram: 'https://instagram.com/member4',
@@ -49,7 +49,7 @@ const teamMembers = [
     roll: 'S123460',
     stream: 'Computer Science',
     course: 'B.Tech',
-    image: '/team/member5.jpg',
+    image: '/team/mystrymember.jpg',
     linkedin: 'https://linkedin.com/in/member5',
     github: 'https://github.com/member5',
     instagram: 'https://instagram.com/member5',
@@ -59,7 +59,7 @@ const teamMembers = [
     roll: 'S123461',
     stream: 'Computer Science',
     course: 'B.Tech',
-    image: '/team/member6.jpg',
+    image: '/team/mystrymember.jpg',
     linkedin: 'https://linkedin.com/in/member6',
     github: 'https://github.com/member6',
     instagram: 'https://instagram.com/member6',
@@ -103,7 +103,7 @@ export default function TeamPage() {
           <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 transition-all duration-1000 delay-300 ${
             mounted ? 'opacity-100 transform translate-y-0' : 'opacity-0 transform translate-y-10'
           }`}>
-            {teamMembers.map((member, index) => (
+            {teamMembers.map((member) => (
               <TeamMemberCard
                 key={member.roll}
                 {...member}

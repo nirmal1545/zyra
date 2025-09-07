@@ -29,8 +29,9 @@ export default function LoginPage() {
       // For now, we'll just simulate a successful login
       console.log('Form submitted:', formData);
       router.push('/chat');
-    } catch (err) {
+    } catch (error) {
       setError('Invalid email or password');
+      console.error(error);
     }
   };
 
@@ -118,7 +119,7 @@ export default function LoginPage() {
 
             <div className="mt-6 text-center">
               <p className="text-white/80">
-                Don't have an account?{' '}
+                Don&apos;t have an account?{' '}
                 <Link href="/auth/signup" className="text-emerald-400 hover:text-emerald-300 font-medium">
                   Sign Up
                 </Link>
