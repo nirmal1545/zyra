@@ -1,0 +1,1892 @@
+{
+  "anxiety and nervousness": {
+    "clean_name": "anxiety and nervousness",
+    "frequency": 9689,
+    "alternatives": []
+  },
+  "depression": {
+    "clean_name": "depression",
+    "frequency": 10556,
+    "alternatives": []
+  },
+  "shortness of breath": {
+    "clean_name": "shortness of breath",
+    "frequency": 21346,
+    "alternatives": []
+  },
+  "depressive or psychotic symptoms": {
+    "clean_name": "depressive or psychotic symptoms",
+    "frequency": 15064,
+    "alternatives": []
+  },
+  "sharp chest pain": {
+    "clean_name": "sharp chest pain",
+    "frequency": 24016,
+    "alternatives": []
+  },
+  "dizziness": {
+    "clean_name": "dizziness",
+    "frequency": 17272,
+    "alternatives": []
+  },
+  "insomnia": {
+    "clean_name": "insomnia",
+    "frequency": 9732,
+    "alternatives": []
+  },
+  "abnormal involuntary movements": {
+    "clean_name": "abnormal involuntary movements",
+    "frequency": 10019,
+    "alternatives": []
+  },
+  "chest tightness": {
+    "clean_name": "chest tightness",
+    "frequency": 9352,
+    "alternatives": []
+  },
+  "palpitations": {
+    "clean_name": "palpitations",
+    "frequency": 6143,
+    "alternatives": []
+  },
+  "irregular heartbeat": {
+    "clean_name": "irregular heartbeat",
+    "frequency": 6201,
+    "alternatives": []
+  },
+  "breathing fast": {
+    "clean_name": "breathing fast",
+    "frequency": 468,
+    "alternatives": []
+  },
+  "hoarse voice": {
+    "clean_name": "hoarse voice",
+    "frequency": 3324,
+    "alternatives": []
+  },
+  "sore throat": {
+    "clean_name": "sore throat",
+    "frequency": 14005,
+    "alternatives": []
+  },
+  "difficulty speaking": {
+    "clean_name": "difficulty speaking",
+    "frequency": 6190,
+    "alternatives": []
+  },
+  "cough": {
+    "clean_name": "cough",
+    "frequency": 24296,
+    "alternatives": []
+  },
+  "nasal congestion": {
+    "clean_name": "nasal congestion",
+    "frequency": 16200,
+    "alternatives": []
+  },
+  "throat swelling": {
+    "clean_name": "throat swelling",
+    "frequency": 1809,
+    "alternatives": []
+  },
+  "diminished hearing": {
+    "clean_name": "diminished hearing",
+    "frequency": 5447,
+    "alternatives": []
+  },
+  "lump in throat": {
+    "clean_name": "lump in throat",
+    "frequency": 520,
+    "alternatives": []
+  },
+  "throat feels tight": {
+    "clean_name": "throat feels tight",
+    "frequency": 2408,
+    "alternatives": []
+  },
+  "difficulty in swallowing": {
+    "clean_name": "difficulty in swallowing",
+    "frequency": 5563,
+    "alternatives": []
+  },
+  "skin swelling": {
+    "clean_name": "skin swelling",
+    "frequency": 15165,
+    "alternatives": []
+  },
+  "retention of urine": {
+    "clean_name": "retention of urine",
+    "frequency": 8332,
+    "alternatives": []
+  },
+  "groin mass": {
+    "clean_name": "groin mass",
+    "frequency": 2043,
+    "alternatives": []
+  },
+  "leg pain": {
+    "clean_name": "leg pain",
+    "frequency": 16189,
+    "alternatives": []
+  },
+  "hip pain": {
+    "clean_name": "hip pain",
+    "frequency": 9623,
+    "alternatives": []
+  },
+  "suprapubic pain": {
+    "clean_name": "suprapubic pain",
+    "frequency": 8325,
+    "alternatives": []
+  },
+  "blood in stool": {
+    "clean_name": "blood in stool",
+    "frequency": 7431,
+    "alternatives": []
+  },
+  "lack of growth": {
+    "clean_name": "lack of growth",
+    "frequency": 3291,
+    "alternatives": []
+  },
+  "emotional symptoms": {
+    "clean_name": "emotional symptoms",
+    "frequency": 624,
+    "alternatives": []
+  },
+  "elbow weakness": {
+    "clean_name": "elbow weakness",
+    "frequency": 334,
+    "alternatives": []
+  },
+  "back weakness": {
+    "clean_name": "back weakness",
+    "frequency": 295,
+    "alternatives": []
+  },
+  "pus in sputum": {
+    "clean_name": "pus in sputum",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "symptoms of the scrotum and testes": {
+    "clean_name": "symptoms of the scrotum and testes",
+    "frequency": 2096,
+    "alternatives": []
+  },
+  "swelling of scrotum": {
+    "clean_name": "swelling of scrotum",
+    "frequency": 1844,
+    "alternatives": []
+  },
+  "pain in testicles": {
+    "clean_name": "pain in testicles",
+    "frequency": 2458,
+    "alternatives": []
+  },
+  "flatulence": {
+    "clean_name": "flatulence",
+    "frequency": 880,
+    "alternatives": []
+  },
+  "pus draining from ear": {
+    "clean_name": "pus draining from ear",
+    "frequency": 794,
+    "alternatives": []
+  },
+  "jaundice": {
+    "clean_name": "jaundice",
+    "frequency": 1584,
+    "alternatives": []
+  },
+  "mass in scrotum": {
+    "clean_name": "mass in scrotum",
+    "frequency": 1294,
+    "alternatives": []
+  },
+  "white discharge from eye": {
+    "clean_name": "white discharge from eye",
+    "frequency": 3224,
+    "alternatives": []
+  },
+  "irritable infant": {
+    "clean_name": "irritable infant",
+    "frequency": 2235,
+    "alternatives": []
+  },
+  "abusing alcohol": {
+    "clean_name": "abusing alcohol",
+    "frequency": 7230,
+    "alternatives": []
+  },
+  "fainting": {
+    "clean_name": "fainting",
+    "frequency": 6972,
+    "alternatives": []
+  },
+  "hostile behavior": {
+    "clean_name": "hostile behavior",
+    "frequency": 7981,
+    "alternatives": []
+  },
+  "drug abuse": {
+    "clean_name": "drug abuse",
+    "frequency": 5348,
+    "alternatives": []
+  },
+  "sharp abdominal pain": {
+    "clean_name": "sharp abdominal pain",
+    "frequency": 32307,
+    "alternatives": []
+  },
+  "feeling ill": {
+    "clean_name": "feeling ill",
+    "frequency": 4336,
+    "alternatives": []
+  },
+  "vomiting": {
+    "clean_name": "vomiting",
+    "frequency": 27874,
+    "alternatives": []
+  },
+  "headache": {
+    "clean_name": "headache",
+    "frequency": 24719,
+    "alternatives": []
+  },
+  "nausea": {
+    "clean_name": "nausea",
+    "frequency": 23687,
+    "alternatives": []
+  },
+  "diarrhea": {
+    "clean_name": "diarrhea",
+    "frequency": 10472,
+    "alternatives": []
+  },
+  "vaginal itching": {
+    "clean_name": "vaginal itching",
+    "frequency": 5260,
+    "alternatives": []
+  },
+  "vaginal dryness": {
+    "clean_name": "vaginal dryness",
+    "frequency": 313,
+    "alternatives": []
+  },
+  "painful urination": {
+    "clean_name": "painful urination",
+    "frequency": 8634,
+    "alternatives": []
+  },
+  "involuntary urination": {
+    "clean_name": "involuntary urination",
+    "frequency": 6277,
+    "alternatives": []
+  },
+  "pain during intercourse": {
+    "clean_name": "pain during intercourse",
+    "frequency": 1460,
+    "alternatives": []
+  },
+  "frequent urination": {
+    "clean_name": "frequent urination",
+    "frequency": 7189,
+    "alternatives": []
+  },
+  "lower abdominal pain": {
+    "clean_name": "lower abdominal pain",
+    "frequency": 14936,
+    "alternatives": []
+  },
+  "vaginal discharge": {
+    "clean_name": "vaginal discharge",
+    "frequency": 6713,
+    "alternatives": []
+  },
+  "blood in urine": {
+    "clean_name": "blood in urine",
+    "frequency": 6619,
+    "alternatives": []
+  },
+  "hot flashes": {
+    "clean_name": "hot flashes",
+    "frequency": 1806,
+    "alternatives": []
+  },
+  "intermenstrual bleeding": {
+    "clean_name": "intermenstrual bleeding",
+    "frequency": 6370,
+    "alternatives": []
+  },
+  "hand or finger pain": {
+    "clean_name": "hand or finger pain",
+    "frequency": 6856,
+    "alternatives": []
+  },
+  "wrist pain": {
+    "clean_name": "wrist pain",
+    "frequency": 4879,
+    "alternatives": []
+  },
+  "hand or finger swelling": {
+    "clean_name": "hand or finger swelling",
+    "frequency": 4800,
+    "alternatives": []
+  },
+  "arm pain": {
+    "clean_name": "arm pain",
+    "frequency": 11619,
+    "alternatives": []
+  },
+  "wrist swelling": {
+    "clean_name": "wrist swelling",
+    "frequency": 3512,
+    "alternatives": []
+  },
+  "arm stiffness or tightness": {
+    "clean_name": "arm stiffness or tightness",
+    "frequency": 2471,
+    "alternatives": []
+  },
+  "arm swelling": {
+    "clean_name": "arm swelling",
+    "frequency": 3134,
+    "alternatives": []
+  },
+  "hand or finger stiffness or tightness": {
+    "clean_name": "hand or finger stiffness or tightness",
+    "frequency": 1801,
+    "alternatives": []
+  },
+  "wrist stiffness or tightness": {
+    "clean_name": "wrist stiffness or tightness",
+    "frequency": 255,
+    "alternatives": []
+  },
+  "lip swelling": {
+    "clean_name": "lip swelling",
+    "frequency": 5855,
+    "alternatives": []
+  },
+  "toothache": {
+    "clean_name": "toothache",
+    "frequency": 2673,
+    "alternatives": []
+  },
+  "abnormal appearing skin": {
+    "clean_name": "abnormal appearing skin",
+    "frequency": 16425,
+    "alternatives": []
+  },
+  "skin lesion": {
+    "clean_name": "skin lesion",
+    "frequency": 12340,
+    "alternatives": []
+  },
+  "acne or pimples": {
+    "clean_name": "acne or pimples",
+    "frequency": 8016,
+    "alternatives": []
+  },
+  "dry lips": {
+    "clean_name": "dry lips",
+    "frequency": 365,
+    "alternatives": []
+  },
+  "facial pain": {
+    "clean_name": "facial pain",
+    "frequency": 8111,
+    "alternatives": []
+  },
+  "mouth ulcer": {
+    "clean_name": "mouth ulcer",
+    "frequency": 3020,
+    "alternatives": []
+  },
+  "skin growth": {
+    "clean_name": "skin growth",
+    "frequency": 10311,
+    "alternatives": []
+  },
+  "eye deviation": {
+    "clean_name": "eye deviation",
+    "frequency": 860,
+    "alternatives": []
+  },
+  "diminished vision": {
+    "clean_name": "diminished vision",
+    "frequency": 8767,
+    "alternatives": []
+  },
+  "double vision": {
+    "clean_name": "double vision",
+    "frequency": 4583,
+    "alternatives": []
+  },
+  "cross-eyed": {
+    "clean_name": "cross-eyed",
+    "frequency": 316,
+    "alternatives": []
+  },
+  "symptoms of eye": {
+    "clean_name": "symptoms of eye",
+    "frequency": 8373,
+    "alternatives": []
+  },
+  "pain in eye": {
+    "clean_name": "pain in eye",
+    "frequency": 9453,
+    "alternatives": []
+  },
+  "eye moves abnormally": {
+    "clean_name": "eye moves abnormally",
+    "frequency": 542,
+    "alternatives": []
+  },
+  "abnormal movement of eyelid": {
+    "clean_name": "abnormal movement of eyelid",
+    "frequency": 2082,
+    "alternatives": []
+  },
+  "foreign body sensation in eye": {
+    "clean_name": "foreign body sensation in eye",
+    "frequency": 5497,
+    "alternatives": []
+  },
+  "irregular appearing scalp": {
+    "clean_name": "irregular appearing scalp",
+    "frequency": 8022,
+    "alternatives": []
+  },
+  "swollen lymph nodes": {
+    "clean_name": "swollen lymph nodes",
+    "frequency": 1876,
+    "alternatives": []
+  },
+  "back pain": {
+    "clean_name": "back pain",
+    "frequency": 21809,
+    "alternatives": []
+  },
+  "neck pain": {
+    "clean_name": "neck pain",
+    "frequency": 10238,
+    "alternatives": []
+  },
+  "low back pain": {
+    "clean_name": "low back pain",
+    "frequency": 11053,
+    "alternatives": []
+  },
+  "pain of the anus": {
+    "clean_name": "pain of the anus",
+    "frequency": 3260,
+    "alternatives": []
+  },
+  "pain during pregnancy": {
+    "clean_name": "pain during pregnancy",
+    "frequency": 5198,
+    "alternatives": []
+  },
+  "pelvic pain": {
+    "clean_name": "pelvic pain",
+    "frequency": 9467,
+    "alternatives": []
+  },
+  "impotence": {
+    "clean_name": "impotence",
+    "frequency": 2430,
+    "alternatives": []
+  },
+  "infant spitting up": {
+    "clean_name": "infant spitting up",
+    "frequency": 80,
+    "alternatives": []
+  },
+  "vomiting blood": {
+    "clean_name": "vomiting blood",
+    "frequency": 3313,
+    "alternatives": []
+  },
+  "regurgitation": {
+    "clean_name": "regurgitation",
+    "frequency": 2490,
+    "alternatives": []
+  },
+  "burning abdominal pain": {
+    "clean_name": "burning abdominal pain",
+    "frequency": 12981,
+    "alternatives": []
+  },
+  "restlessness": {
+    "clean_name": "restlessness",
+    "frequency": 2475,
+    "alternatives": []
+  },
+  "symptoms of infants": {
+    "clean_name": "symptoms of infants",
+    "frequency": 237,
+    "alternatives": []
+  },
+  "wheezing": {
+    "clean_name": "wheezing",
+    "frequency": 4859,
+    "alternatives": []
+  },
+  "peripheral edema": {
+    "clean_name": "peripheral edema",
+    "frequency": 8696,
+    "alternatives": []
+  },
+  "neck mass": {
+    "clean_name": "neck mass",
+    "frequency": 2015,
+    "alternatives": []
+  },
+  "ear pain": {
+    "clean_name": "ear pain",
+    "frequency": 10584,
+    "alternatives": []
+  },
+  "jaw swelling": {
+    "clean_name": "jaw swelling",
+    "frequency": 2335,
+    "alternatives": []
+  },
+  "mouth dryness": {
+    "clean_name": "mouth dryness",
+    "frequency": 963,
+    "alternatives": []
+  },
+  "neck swelling": {
+    "clean_name": "neck swelling",
+    "frequency": 2186,
+    "alternatives": []
+  },
+  "knee pain": {
+    "clean_name": "knee pain",
+    "frequency": 8021,
+    "alternatives": []
+  },
+  "foot or toe pain": {
+    "clean_name": "foot or toe pain",
+    "frequency": 7087,
+    "alternatives": []
+  },
+  "bowlegged or knock-kneed": {
+    "clean_name": "bowlegged or knock-kneed",
+    "frequency": 61,
+    "alternatives": []
+  },
+  "ankle pain": {
+    "clean_name": "ankle pain",
+    "frequency": 3996,
+    "alternatives": []
+  },
+  "bones are painful": {
+    "clean_name": "bones are painful",
+    "frequency": 3905,
+    "alternatives": []
+  },
+  "knee weakness": {
+    "clean_name": "knee weakness",
+    "frequency": 1159,
+    "alternatives": []
+  },
+  "elbow pain": {
+    "clean_name": "elbow pain",
+    "frequency": 4768,
+    "alternatives": []
+  },
+  "knee swelling": {
+    "clean_name": "knee swelling",
+    "frequency": 3808,
+    "alternatives": []
+  },
+  "skin moles": {
+    "clean_name": "skin moles",
+    "frequency": 6367,
+    "alternatives": []
+  },
+  "knee lump or mass": {
+    "clean_name": "knee lump or mass",
+    "frequency": 970,
+    "alternatives": []
+  },
+  "weight gain": {
+    "clean_name": "weight gain",
+    "frequency": 2978,
+    "alternatives": []
+  },
+  "problems with movement": {
+    "clean_name": "problems with movement",
+    "frequency": 8898,
+    "alternatives": []
+  },
+  "knee stiffness or tightness": {
+    "clean_name": "knee stiffness or tightness",
+    "frequency": 1250,
+    "alternatives": []
+  },
+  "leg swelling": {
+    "clean_name": "leg swelling",
+    "frequency": 5987,
+    "alternatives": []
+  },
+  "foot or toe swelling": {
+    "clean_name": "foot or toe swelling",
+    "frequency": 4264,
+    "alternatives": []
+  },
+  "heartburn": {
+    "clean_name": "heartburn",
+    "frequency": 6953,
+    "alternatives": []
+  },
+  "smoking problems": {
+    "clean_name": "smoking problems",
+    "frequency": 1966,
+    "alternatives": []
+  },
+  "muscle pain": {
+    "clean_name": "muscle pain",
+    "frequency": 1845,
+    "alternatives": []
+  },
+  "infant feeding problem": {
+    "clean_name": "infant feeding problem",
+    "frequency": 727,
+    "alternatives": []
+  },
+  "recent weight loss": {
+    "clean_name": "recent weight loss",
+    "frequency": 146,
+    "alternatives": []
+  },
+  "problems with shape or size of breast": {
+    "clean_name": "problems with shape or size of breast",
+    "frequency": 47,
+    "alternatives": []
+  },
+  "underweight": {
+    "clean_name": "underweight",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "difficulty eating": {
+    "clean_name": "difficulty eating",
+    "frequency": 344,
+    "alternatives": []
+  },
+  "scanty menstrual flow": {
+    "clean_name": "scanty menstrual flow",
+    "frequency": 12,
+    "alternatives": []
+  },
+  "vaginal pain": {
+    "clean_name": "vaginal pain",
+    "frequency": 2910,
+    "alternatives": []
+  },
+  "vaginal redness": {
+    "clean_name": "vaginal redness",
+    "frequency": 1275,
+    "alternatives": []
+  },
+  "vulvar irritation": {
+    "clean_name": "vulvar irritation",
+    "frequency": 543,
+    "alternatives": []
+  },
+  "weakness": {
+    "clean_name": "weakness",
+    "frequency": 11551,
+    "alternatives": []
+  },
+  "decreased heart rate": {
+    "clean_name": "decreased heart rate",
+    "frequency": 2191,
+    "alternatives": []
+  },
+  "increased heart rate": {
+    "clean_name": "increased heart rate",
+    "frequency": 3180,
+    "alternatives": []
+  },
+  "bleeding or discharge from nipple": {
+    "clean_name": "bleeding or discharge from nipple",
+    "frequency": 326,
+    "alternatives": []
+  },
+  "ringing in ear": {
+    "clean_name": "ringing in ear",
+    "frequency": 2722,
+    "alternatives": []
+  },
+  "plugged feeling in ear": {
+    "clean_name": "plugged feeling in ear",
+    "frequency": 4234,
+    "alternatives": []
+  },
+  "itchy ear(s)": {
+    "clean_name": "itchy ear(s)",
+    "frequency": 1209,
+    "alternatives": []
+  },
+  "frontal headache": {
+    "clean_name": "frontal headache",
+    "frequency": 1797,
+    "alternatives": []
+  },
+  "fluid in ear": {
+    "clean_name": "fluid in ear",
+    "frequency": 3153,
+    "alternatives": []
+  },
+  "neck stiffness or tightness": {
+    "clean_name": "neck stiffness or tightness",
+    "frequency": 1112,
+    "alternatives": []
+  },
+  "spots or clouds in vision": {
+    "clean_name": "spots or clouds in vision",
+    "frequency": 5221,
+    "alternatives": []
+  },
+  "eye redness": {
+    "clean_name": "eye redness",
+    "frequency": 6077,
+    "alternatives": []
+  },
+  "lacrimation": {
+    "clean_name": "lacrimation",
+    "frequency": 7324,
+    "alternatives": []
+  },
+  "itchiness of eye": {
+    "clean_name": "itchiness of eye",
+    "frequency": 6900,
+    "alternatives": []
+  },
+  "blindness": {
+    "clean_name": "blindness",
+    "frequency": 1857,
+    "alternatives": []
+  },
+  "eye burns or stings": {
+    "clean_name": "eye burns or stings",
+    "frequency": 3081,
+    "alternatives": []
+  },
+  "itchy eyelid": {
+    "clean_name": "itchy eyelid",
+    "frequency": 510,
+    "alternatives": []
+  },
+  "feeling cold": {
+    "clean_name": "feeling cold",
+    "frequency": 100,
+    "alternatives": []
+  },
+  "decreased appetite": {
+    "clean_name": "decreased appetite",
+    "frequency": 6971,
+    "alternatives": []
+  },
+  "excessive appetite": {
+    "clean_name": "excessive appetite",
+    "frequency": 594,
+    "alternatives": []
+  },
+  "excessive anger": {
+    "clean_name": "excessive anger",
+    "frequency": 6832,
+    "alternatives": []
+  },
+  "loss of sensation": {
+    "clean_name": "loss of sensation",
+    "frequency": 10399,
+    "alternatives": []
+  },
+  "focal weakness": {
+    "clean_name": "focal weakness",
+    "frequency": 2918,
+    "alternatives": []
+  },
+  "slurring words": {
+    "clean_name": "slurring words",
+    "frequency": 1744,
+    "alternatives": []
+  },
+  "symptoms of the face": {
+    "clean_name": "symptoms of the face",
+    "frequency": 2284,
+    "alternatives": []
+  },
+  "disturbance of memory": {
+    "clean_name": "disturbance of memory",
+    "frequency": 5287,
+    "alternatives": []
+  },
+  "paresthesia": {
+    "clean_name": "paresthesia",
+    "frequency": 6568,
+    "alternatives": []
+  },
+  "side pain": {
+    "clean_name": "side pain",
+    "frequency": 10506,
+    "alternatives": []
+  },
+  "fever": {
+    "clean_name": "fever",
+    "frequency": 20394,
+    "alternatives": []
+  },
+  "shoulder pain": {
+    "clean_name": "shoulder pain",
+    "frequency": 7769,
+    "alternatives": []
+  },
+  "shoulder stiffness or tightness": {
+    "clean_name": "shoulder stiffness or tightness",
+    "frequency": 1559,
+    "alternatives": []
+  },
+  "shoulder weakness": {
+    "clean_name": "shoulder weakness",
+    "frequency": 193,
+    "alternatives": []
+  },
+  "arm cramps or spasms": {
+    "clean_name": "arm cramps or spasms",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "shoulder swelling": {
+    "clean_name": "shoulder swelling",
+    "frequency": 146,
+    "alternatives": []
+  },
+  "tongue lesions": {
+    "clean_name": "tongue lesions",
+    "frequency": 998,
+    "alternatives": []
+  },
+  "leg cramps or spasms": {
+    "clean_name": "leg cramps or spasms",
+    "frequency": 1960,
+    "alternatives": []
+  },
+  "abnormal appearing tongue": {
+    "clean_name": "abnormal appearing tongue",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "ache all over": {
+    "clean_name": "ache all over",
+    "frequency": 7283,
+    "alternatives": []
+  },
+  "lower body pain": {
+    "clean_name": "lower body pain",
+    "frequency": 7530,
+    "alternatives": []
+  },
+  "problems during pregnancy": {
+    "clean_name": "problems during pregnancy",
+    "frequency": 4245,
+    "alternatives": []
+  },
+  "spotting or bleeding during pregnancy": {
+    "clean_name": "spotting or bleeding during pregnancy",
+    "frequency": 2686,
+    "alternatives": []
+  },
+  "cramps and spasms": {
+    "clean_name": "cramps and spasms",
+    "frequency": 5417,
+    "alternatives": []
+  },
+  "upper abdominal pain": {
+    "clean_name": "upper abdominal pain",
+    "frequency": 6382,
+    "alternatives": []
+  },
+  "stomach bloating": {
+    "clean_name": "stomach bloating",
+    "frequency": 2210,
+    "alternatives": []
+  },
+  "changes in stool appearance": {
+    "clean_name": "changes in stool appearance",
+    "frequency": 2371,
+    "alternatives": []
+  },
+  "unusual color or odor to urine": {
+    "clean_name": "unusual color or odor to urine",
+    "frequency": 931,
+    "alternatives": []
+  },
+  "kidney mass": {
+    "clean_name": "kidney mass",
+    "frequency": 598,
+    "alternatives": []
+  },
+  "swollen abdomen": {
+    "clean_name": "swollen abdomen",
+    "frequency": 652,
+    "alternatives": []
+  },
+  "symptoms of prostate": {
+    "clean_name": "symptoms of prostate",
+    "frequency": 1498,
+    "alternatives": []
+  },
+  "leg stiffness or tightness": {
+    "clean_name": "leg stiffness or tightness",
+    "frequency": 1336,
+    "alternatives": []
+  },
+  "difficulty breathing": {
+    "clean_name": "difficulty breathing",
+    "frequency": 8128,
+    "alternatives": []
+  },
+  "rib pain": {
+    "clean_name": "rib pain",
+    "frequency": 2018,
+    "alternatives": []
+  },
+  "joint pain": {
+    "clean_name": "joint pain",
+    "frequency": 4345,
+    "alternatives": []
+  },
+  "muscle stiffness or tightness": {
+    "clean_name": "muscle stiffness or tightness",
+    "frequency": 185,
+    "alternatives": []
+  },
+  "pallor": {
+    "clean_name": "pallor",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "hand or finger lump or mass": {
+    "clean_name": "hand or finger lump or mass",
+    "frequency": 1013,
+    "alternatives": []
+  },
+  "chills": {
+    "clean_name": "chills",
+    "frequency": 6274,
+    "alternatives": []
+  },
+  "groin pain": {
+    "clean_name": "groin pain",
+    "frequency": 2415,
+    "alternatives": []
+  },
+  "fatigue": {
+    "clean_name": "fatigue",
+    "frequency": 6199,
+    "alternatives": []
+  },
+  "abdominal distention": {
+    "clean_name": "abdominal distention",
+    "frequency": 183,
+    "alternatives": []
+  },
+  "regurgitation.1": {
+    "clean_name": "regurgitation.1",
+    "frequency": 4170,
+    "alternatives": []
+  },
+  "symptoms of the kidneys": {
+    "clean_name": "symptoms of the kidneys",
+    "frequency": 1289,
+    "alternatives": []
+  },
+  "melena": {
+    "clean_name": "melena",
+    "frequency": 2080,
+    "alternatives": []
+  },
+  "flushing": {
+    "clean_name": "flushing",
+    "frequency": 92,
+    "alternatives": []
+  },
+  "coughing up sputum": {
+    "clean_name": "coughing up sputum",
+    "frequency": 2683,
+    "alternatives": []
+  },
+  "seizures": {
+    "clean_name": "seizures",
+    "frequency": 3842,
+    "alternatives": []
+  },
+  "delusions or hallucinations": {
+    "clean_name": "delusions or hallucinations",
+    "frequency": 7165,
+    "alternatives": []
+  },
+  "shoulder cramps or spasms": {
+    "clean_name": "shoulder cramps or spasms",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "joint stiffness or tightness": {
+    "clean_name": "joint stiffness or tightness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "pain or soreness of breast": {
+    "clean_name": "pain or soreness of breast",
+    "frequency": 655,
+    "alternatives": []
+  },
+  "excessive urination at night": {
+    "clean_name": "excessive urination at night",
+    "frequency": 1743,
+    "alternatives": []
+  },
+  "bleeding from eye": {
+    "clean_name": "bleeding from eye",
+    "frequency": 596,
+    "alternatives": []
+  },
+  "rectal bleeding": {
+    "clean_name": "rectal bleeding",
+    "frequency": 4333,
+    "alternatives": []
+  },
+  "constipation": {
+    "clean_name": "constipation",
+    "frequency": 3772,
+    "alternatives": []
+  },
+  "temper problems": {
+    "clean_name": "temper problems",
+    "frequency": 6741,
+    "alternatives": []
+  },
+  "coryza": {
+    "clean_name": "coryza",
+    "frequency": 7869,
+    "alternatives": []
+  },
+  "wrist weakness": {
+    "clean_name": "wrist weakness",
+    "frequency": 4,
+    "alternatives": []
+  },
+  "eye strain": {
+    "clean_name": "eye strain",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "hemoptysis": {
+    "clean_name": "hemoptysis",
+    "frequency": 2149,
+    "alternatives": []
+  },
+  "lymphedema": {
+    "clean_name": "lymphedema",
+    "frequency": 2685,
+    "alternatives": []
+  },
+  "skin on leg or foot looks infected": {
+    "clean_name": "skin on leg or foot looks infected",
+    "frequency": 1447,
+    "alternatives": []
+  },
+  "allergic reaction": {
+    "clean_name": "allergic reaction",
+    "frequency": 5931,
+    "alternatives": []
+  },
+  "congestion in chest": {
+    "clean_name": "congestion in chest",
+    "frequency": 1417,
+    "alternatives": []
+  },
+  "muscle swelling": {
+    "clean_name": "muscle swelling",
+    "frequency": 265,
+    "alternatives": []
+  },
+  "pus in urine": {
+    "clean_name": "pus in urine",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "abnormal size or shape of ear": {
+    "clean_name": "abnormal size or shape of ear",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "low back weakness": {
+    "clean_name": "low back weakness",
+    "frequency": 5,
+    "alternatives": []
+  },
+  "sleepiness": {
+    "clean_name": "sleepiness",
+    "frequency": 2847,
+    "alternatives": []
+  },
+  "apnea": {
+    "clean_name": "apnea",
+    "frequency": 1627,
+    "alternatives": []
+  },
+  "abnormal breathing sounds": {
+    "clean_name": "abnormal breathing sounds",
+    "frequency": 2695,
+    "alternatives": []
+  },
+  "excessive growth": {
+    "clean_name": "excessive growth",
+    "frequency": 36,
+    "alternatives": []
+  },
+  "elbow cramps or spasms": {
+    "clean_name": "elbow cramps or spasms",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "feeling hot and cold": {
+    "clean_name": "feeling hot and cold",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "blood clots during menstrual periods": {
+    "clean_name": "blood clots during menstrual periods",
+    "frequency": 2703,
+    "alternatives": []
+  },
+  "absence of menstruation": {
+    "clean_name": "absence of menstruation",
+    "frequency": 585,
+    "alternatives": []
+  },
+  "pulling at ears": {
+    "clean_name": "pulling at ears",
+    "frequency": 3542,
+    "alternatives": []
+  },
+  "gum pain": {
+    "clean_name": "gum pain",
+    "frequency": 2144,
+    "alternatives": []
+  },
+  "redness in ear": {
+    "clean_name": "redness in ear",
+    "frequency": 3022,
+    "alternatives": []
+  },
+  "fluid retention": {
+    "clean_name": "fluid retention",
+    "frequency": 4233,
+    "alternatives": []
+  },
+  "flu-like syndrome": {
+    "clean_name": "flu-like syndrome",
+    "frequency": 1046,
+    "alternatives": []
+  },
+  "sinus congestion": {
+    "clean_name": "sinus congestion",
+    "frequency": 2338,
+    "alternatives": []
+  },
+  "painful sinuses": {
+    "clean_name": "painful sinuses",
+    "frequency": 2389,
+    "alternatives": []
+  },
+  "fears and phobias": {
+    "clean_name": "fears and phobias",
+    "frequency": 4152,
+    "alternatives": []
+  },
+  "recent pregnancy": {
+    "clean_name": "recent pregnancy",
+    "frequency": 719,
+    "alternatives": []
+  },
+  "uterine contractions": {
+    "clean_name": "uterine contractions",
+    "frequency": 1382,
+    "alternatives": []
+  },
+  "burning chest pain": {
+    "clean_name": "burning chest pain",
+    "frequency": 746,
+    "alternatives": []
+  },
+  "back cramps or spasms": {
+    "clean_name": "back cramps or spasms",
+    "frequency": 1278,
+    "alternatives": []
+  },
+  "stiffness all over": {
+    "clean_name": "stiffness all over",
+    "frequency": 985,
+    "alternatives": []
+  },
+  "muscle cramps, contractures, or spasms": {
+    "clean_name": "muscle cramps, contractures, or spasms",
+    "frequency": 861,
+    "alternatives": []
+  },
+  "low back cramps or spasms": {
+    "clean_name": "low back cramps or spasms",
+    "frequency": 103,
+    "alternatives": []
+  },
+  "back mass or lump": {
+    "clean_name": "back mass or lump",
+    "frequency": 1478,
+    "alternatives": []
+  },
+  "nosebleed": {
+    "clean_name": "nosebleed",
+    "frequency": 1491,
+    "alternatives": []
+  },
+  "long menstrual periods": {
+    "clean_name": "long menstrual periods",
+    "frequency": 2522,
+    "alternatives": []
+  },
+  "heavy menstrual flow": {
+    "clean_name": "heavy menstrual flow",
+    "frequency": 3478,
+    "alternatives": []
+  },
+  "unpredictable menstruation": {
+    "clean_name": "unpredictable menstruation",
+    "frequency": 2319,
+    "alternatives": []
+  },
+  "painful menstruation": {
+    "clean_name": "painful menstruation",
+    "frequency": 2107,
+    "alternatives": []
+  },
+  "infertility": {
+    "clean_name": "infertility",
+    "frequency": 1191,
+    "alternatives": []
+  },
+  "frequent menstruation": {
+    "clean_name": "frequent menstruation",
+    "frequency": 945,
+    "alternatives": []
+  },
+  "sweating": {
+    "clean_name": "sweating",
+    "frequency": 3756,
+    "alternatives": []
+  },
+  "mass on eyelid": {
+    "clean_name": "mass on eyelid",
+    "frequency": 1160,
+    "alternatives": []
+  },
+  "swollen eye": {
+    "clean_name": "swollen eye",
+    "frequency": 4698,
+    "alternatives": []
+  },
+  "eyelid swelling": {
+    "clean_name": "eyelid swelling",
+    "frequency": 1639,
+    "alternatives": []
+  },
+  "eyelid lesion or rash": {
+    "clean_name": "eyelid lesion or rash",
+    "frequency": 510,
+    "alternatives": []
+  },
+  "unwanted hair": {
+    "clean_name": "unwanted hair",
+    "frequency": 22,
+    "alternatives": []
+  },
+  "symptoms of bladder": {
+    "clean_name": "symptoms of bladder",
+    "frequency": 2898,
+    "alternatives": []
+  },
+  "irregular appearing nails": {
+    "clean_name": "irregular appearing nails",
+    "frequency": 2026,
+    "alternatives": []
+  },
+  "itching of skin": {
+    "clean_name": "itching of skin",
+    "frequency": 10363,
+    "alternatives": []
+  },
+  "hurts to breath": {
+    "clean_name": "hurts to breath",
+    "frequency": 2476,
+    "alternatives": []
+  },
+  "nailbiting": {
+    "clean_name": "nailbiting",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "skin dryness, peeling, scaliness, or roughness": {
+    "clean_name": "skin dryness, peeling, scaliness, or roughness",
+    "frequency": 7867,
+    "alternatives": []
+  },
+  "skin on arm or hand looks infected": {
+    "clean_name": "skin on arm or hand looks infected",
+    "frequency": 498,
+    "alternatives": []
+  },
+  "skin irritation": {
+    "clean_name": "skin irritation",
+    "frequency": 4852,
+    "alternatives": []
+  },
+  "itchy scalp": {
+    "clean_name": "itchy scalp",
+    "frequency": 1824,
+    "alternatives": []
+  },
+  "hip swelling": {
+    "clean_name": "hip swelling",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "incontinence of stool": {
+    "clean_name": "incontinence of stool",
+    "frequency": 9,
+    "alternatives": []
+  },
+  "foot or toe cramps or spasms": {
+    "clean_name": "foot or toe cramps or spasms",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "warts": {
+    "clean_name": "warts",
+    "frequency": 2930,
+    "alternatives": []
+  },
+  "bumps on penis": {
+    "clean_name": "bumps on penis",
+    "frequency": 342,
+    "alternatives": []
+  },
+  "too little hair": {
+    "clean_name": "too little hair",
+    "frequency": 1257,
+    "alternatives": []
+  },
+  "foot or toe lump or mass": {
+    "clean_name": "foot or toe lump or mass",
+    "frequency": 36,
+    "alternatives": []
+  },
+  "skin rash": {
+    "clean_name": "skin rash",
+    "frequency": 12375,
+    "alternatives": []
+  },
+  "mass or swelling around the anus": {
+    "clean_name": "mass or swelling around the anus",
+    "frequency": 460,
+    "alternatives": []
+  },
+  "low back swelling": {
+    "clean_name": "low back swelling",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "ankle swelling": {
+    "clean_name": "ankle swelling",
+    "frequency": 2079,
+    "alternatives": []
+  },
+  "hip lump or mass": {
+    "clean_name": "hip lump or mass",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "drainage in throat": {
+    "clean_name": "drainage in throat",
+    "frequency": 100,
+    "alternatives": []
+  },
+  "dry or flaky scalp": {
+    "clean_name": "dry or flaky scalp",
+    "frequency": 458,
+    "alternatives": []
+  },
+  "premenstrual tension or irritability": {
+    "clean_name": "premenstrual tension or irritability",
+    "frequency": 61,
+    "alternatives": []
+  },
+  "feeling hot": {
+    "clean_name": "feeling hot",
+    "frequency": 1,
+    "alternatives": []
+  },
+  "feet turned in": {
+    "clean_name": "feet turned in",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "foot or toe stiffness or tightness": {
+    "clean_name": "foot or toe stiffness or tightness",
+    "frequency": 313,
+    "alternatives": []
+  },
+  "pelvic pressure": {
+    "clean_name": "pelvic pressure",
+    "frequency": 20,
+    "alternatives": []
+  },
+  "elbow swelling": {
+    "clean_name": "elbow swelling",
+    "frequency": 1988,
+    "alternatives": []
+  },
+  "elbow stiffness or tightness": {
+    "clean_name": "elbow stiffness or tightness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "early or late onset of menopause": {
+    "clean_name": "early or late onset of menopause",
+    "frequency": 205,
+    "alternatives": []
+  },
+  "mass on ear": {
+    "clean_name": "mass on ear",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "bleeding from ear": {
+    "clean_name": "bleeding from ear",
+    "frequency": 688,
+    "alternatives": []
+  },
+  "hand or finger weakness": {
+    "clean_name": "hand or finger weakness",
+    "frequency": 810,
+    "alternatives": []
+  },
+  "low self-esteem": {
+    "clean_name": "low self-esteem",
+    "frequency": 2635,
+    "alternatives": []
+  },
+  "throat irritation": {
+    "clean_name": "throat irritation",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "itching of the anus": {
+    "clean_name": "itching of the anus",
+    "frequency": 933,
+    "alternatives": []
+  },
+  "swollen or red tonsils": {
+    "clean_name": "swollen or red tonsils",
+    "frequency": 680,
+    "alternatives": []
+  },
+  "irregular belly button": {
+    "clean_name": "irregular belly button",
+    "frequency": 239,
+    "alternatives": []
+  },
+  "swollen tongue": {
+    "clean_name": "swollen tongue",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "lip sore": {
+    "clean_name": "lip sore",
+    "frequency": 98,
+    "alternatives": []
+  },
+  "vulvar sore": {
+    "clean_name": "vulvar sore",
+    "frequency": 97,
+    "alternatives": []
+  },
+  "hip stiffness or tightness": {
+    "clean_name": "hip stiffness or tightness",
+    "frequency": 612,
+    "alternatives": []
+  },
+  "mouth pain": {
+    "clean_name": "mouth pain",
+    "frequency": 2508,
+    "alternatives": []
+  },
+  "arm weakness": {
+    "clean_name": "arm weakness",
+    "frequency": 1486,
+    "alternatives": []
+  },
+  "leg lump or mass": {
+    "clean_name": "leg lump or mass",
+    "frequency": 112,
+    "alternatives": []
+  },
+  "disturbance of smell or taste": {
+    "clean_name": "disturbance of smell or taste",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "discharge in stools": {
+    "clean_name": "discharge in stools",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "penis pain": {
+    "clean_name": "penis pain",
+    "frequency": 477,
+    "alternatives": []
+  },
+  "loss of sex drive": {
+    "clean_name": "loss of sex drive",
+    "frequency": 782,
+    "alternatives": []
+  },
+  "obsessions and compulsions": {
+    "clean_name": "obsessions and compulsions",
+    "frequency": 1703,
+    "alternatives": []
+  },
+  "antisocial behavior": {
+    "clean_name": "antisocial behavior",
+    "frequency": 2020,
+    "alternatives": []
+  },
+  "neck cramps or spasms": {
+    "clean_name": "neck cramps or spasms",
+    "frequency": 134,
+    "alternatives": []
+  },
+  "pupils unequal": {
+    "clean_name": "pupils unequal",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "poor circulation": {
+    "clean_name": "poor circulation",
+    "frequency": 56,
+    "alternatives": []
+  },
+  "thirst": {
+    "clean_name": "thirst",
+    "frequency": 1,
+    "alternatives": []
+  },
+  "sleepwalking": {
+    "clean_name": "sleepwalking",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "skin oiliness": {
+    "clean_name": "skin oiliness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "sneezing": {
+    "clean_name": "sneezing",
+    "frequency": 1190,
+    "alternatives": []
+  },
+  "bladder mass": {
+    "clean_name": "bladder mass",
+    "frequency": 68,
+    "alternatives": []
+  },
+  "knee cramps or spasms": {
+    "clean_name": "knee cramps or spasms",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "premature ejaculation": {
+    "clean_name": "premature ejaculation",
+    "frequency": 87,
+    "alternatives": []
+  },
+  "leg weakness": {
+    "clean_name": "leg weakness",
+    "frequency": 2411,
+    "alternatives": []
+  },
+  "posture problems": {
+    "clean_name": "posture problems",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "bleeding in mouth": {
+    "clean_name": "bleeding in mouth",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "tongue bleeding": {
+    "clean_name": "tongue bleeding",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "change in skin mole size or color": {
+    "clean_name": "change in skin mole size or color",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "penis redness": {
+    "clean_name": "penis redness",
+    "frequency": 252,
+    "alternatives": []
+  },
+  "penile discharge": {
+    "clean_name": "penile discharge",
+    "frequency": 307,
+    "alternatives": []
+  },
+  "shoulder lump or mass": {
+    "clean_name": "shoulder lump or mass",
+    "frequency": 350,
+    "alternatives": []
+  },
+  "polyuria": {
+    "clean_name": "polyuria",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "cloudy eye": {
+    "clean_name": "cloudy eye",
+    "frequency": 545,
+    "alternatives": []
+  },
+  "hysterical behavior": {
+    "clean_name": "hysterical behavior",
+    "frequency": 1243,
+    "alternatives": []
+  },
+  "arm lump or mass": {
+    "clean_name": "arm lump or mass",
+    "frequency": 799,
+    "alternatives": []
+  },
+  "nightmares": {
+    "clean_name": "nightmares",
+    "frequency": 513,
+    "alternatives": []
+  },
+  "bleeding gums": {
+    "clean_name": "bleeding gums",
+    "frequency": 947,
+    "alternatives": []
+  },
+  "pain in gums": {
+    "clean_name": "pain in gums",
+    "frequency": 1709,
+    "alternatives": []
+  },
+  "bedwetting": {
+    "clean_name": "bedwetting",
+    "frequency": 168,
+    "alternatives": []
+  },
+  "diaper rash": {
+    "clean_name": "diaper rash",
+    "frequency": 939,
+    "alternatives": []
+  },
+  "lump or mass of breast": {
+    "clean_name": "lump or mass of breast",
+    "frequency": 374,
+    "alternatives": []
+  },
+  "vaginal bleeding after menopause": {
+    "clean_name": "vaginal bleeding after menopause",
+    "frequency": 91,
+    "alternatives": []
+  },
+  "infrequent menstruation": {
+    "clean_name": "infrequent menstruation",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "mass on vulva": {
+    "clean_name": "mass on vulva",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "jaw pain": {
+    "clean_name": "jaw pain",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "itching of scrotum": {
+    "clean_name": "itching of scrotum",
+    "frequency": 4,
+    "alternatives": []
+  },
+  "postpartum problems of the breast": {
+    "clean_name": "postpartum problems of the breast",
+    "frequency": 252,
+    "alternatives": []
+  },
+  "eyelid retracted": {
+    "clean_name": "eyelid retracted",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "hesitancy": {
+    "clean_name": "hesitancy",
+    "frequency": 776,
+    "alternatives": []
+  },
+  "elbow lump or mass": {
+    "clean_name": "elbow lump or mass",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "muscle weakness": {
+    "clean_name": "muscle weakness",
+    "frequency": 34,
+    "alternatives": []
+  },
+  "throat redness": {
+    "clean_name": "throat redness",
+    "frequency": 234,
+    "alternatives": []
+  },
+  "joint swelling": {
+    "clean_name": "joint swelling",
+    "frequency": 342,
+    "alternatives": []
+  },
+  "tongue pain": {
+    "clean_name": "tongue pain",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "redness in or around nose": {
+    "clean_name": "redness in or around nose",
+    "frequency": 231,
+    "alternatives": []
+  },
+  "wrinkles on skin": {
+    "clean_name": "wrinkles on skin",
+    "frequency": 204,
+    "alternatives": []
+  },
+  "foot or toe weakness": {
+    "clean_name": "foot or toe weakness",
+    "frequency": 108,
+    "alternatives": []
+  },
+  "hand or finger cramps or spasms": {
+    "clean_name": "hand or finger cramps or spasms",
+    "frequency": 47,
+    "alternatives": []
+  },
+  "back stiffness or tightness": {
+    "clean_name": "back stiffness or tightness",
+    "frequency": 455,
+    "alternatives": []
+  },
+  "wrist lump or mass": {
+    "clean_name": "wrist lump or mass",
+    "frequency": 339,
+    "alternatives": []
+  },
+  "skin pain": {
+    "clean_name": "skin pain",
+    "frequency": 1,
+    "alternatives": []
+  },
+  "low back stiffness or tightness": {
+    "clean_name": "low back stiffness or tightness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "low urine output": {
+    "clean_name": "low urine output",
+    "frequency": 830,
+    "alternatives": []
+  },
+  "skin on head or neck looks infected": {
+    "clean_name": "skin on head or neck looks infected",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "stuttering or stammering": {
+    "clean_name": "stuttering or stammering",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "problems with orgasm": {
+    "clean_name": "problems with orgasm",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "nose deformity": {
+    "clean_name": "nose deformity",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "lump over jaw": {
+    "clean_name": "lump over jaw",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "sore in nose": {
+    "clean_name": "sore in nose",
+    "frequency": 342,
+    "alternatives": []
+  },
+  "hip weakness": {
+    "clean_name": "hip weakness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "back swelling": {
+    "clean_name": "back swelling",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "ankle stiffness or tightness": {
+    "clean_name": "ankle stiffness or tightness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "ankle weakness": {
+    "clean_name": "ankle weakness",
+    "frequency": 18,
+    "alternatives": []
+  },
+  "neck weakness": {
+    "clean_name": "neck weakness",
+    "frequency": 0,
+    "alternatives": []
+  },
+  "disease": {
+    "clean_name": "disease",
+    "frequency": 91031184,
+    "alternatives": []
+  }
+}
