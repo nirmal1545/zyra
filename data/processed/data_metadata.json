@@ -1,0 +1,11 @@
+{
+  "dtype_float": "<class 'numpy.float32'>",
+  "dtype_int": "<class 'numpy.int32'>",
+  "n_features": 429,
+  "n_classes": 721,
+  "feature_count": {
+    "symptoms": 377,
+    "derived": 2,
+    "embeddings": 50
+  }
+}

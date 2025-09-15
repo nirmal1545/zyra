@@ -1,0 +1,13 @@
+{
+  "daily_metrics": [
+    {
+      "date": "2025-09-15",
+      "total_predictions": 1,
+      "avg_confidence": 0.85,
+      "avg_response_time": 0.2,
+      "feedback_count": 1,
+      "avg_rating": 5.0
+    }
+  ],
+  "alerts": []
+}
